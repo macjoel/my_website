@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+/*Nativation Section*/
+nav{
+    width: 25%;
+    float: left;
+    background-color: darkgrey;
+    position: fixed;
+}
+#main-doc{
+    width: 75%;
+    height: 5000px;
+    background-color: darkkhaki;
+    float: right;
+}
+#navbar{
+    float: left;
+}
+button{
+    float: left;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    margin-top: -5px;
+    cursor: pointer;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid green;
+    border-top: 2px solid green;
+}
+button:hover{
+    background-color: darkkhaki
+}
+#sections{
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+#image{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    margin-left: 40px;
+}
